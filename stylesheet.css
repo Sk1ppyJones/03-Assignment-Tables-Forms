@@ -4,7 +4,9 @@ body {
 }
 
 header,
-h1 {
+h1,
+caption {
+    text-shadow: 5px 5px 5px rgb(193, 231, 188);
     font-style: italic;
     margin-top: -10px;
     width: 100%;
@@ -15,29 +17,41 @@ h1 {
 
 #first_photo {
     float: right;
-    border: 5px solid rgb(107, 170, 107);
+    border: 10px solid rgb(107, 170, 107);
 }
 
-#first_verse {
-    font-size: 50px;
-}
-
-#second_verse {
-    font-size: 40px;
-}
-
-#third_verse {
-    font-size: 50px;
-}
-
-#fourth_verse {
-    font-size: 50px;
+#verse {
+    font-style: italic;
+    text-align: center;
+    font-weight: 700;
+    padding-left: 10%;
+    width: 25%;
+    font-size: 20px;
 }
 
 #form {
     text-align: center;
 }
 
+table,
+th,
+td {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(107, 170, 107);
+}
+
+thead {
+    font-size: 25px;
+    font-weight: 700;
+}
+tbody {
+    font-weight: 400;
+    font-size: 25px;
+}
+tfoot {
+    font-size: 20px;
+}
 form {
     display: inline-block;
     font-size: 20px;
